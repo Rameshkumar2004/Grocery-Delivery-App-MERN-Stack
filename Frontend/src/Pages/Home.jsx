@@ -1,0 +1,21 @@
+import React from 'react'
+import MainBanner from '../Components/MainBanner'
+import Categories from '../Components/Categories'
+import BestSeller from './../Components/BestSeller';
+import BottomBanner from '../Components/BottomBanner';
+import NewsLetter from './../Components/NewsLetter';
+
+function Home() {
+  return (
+    <div>
+      <MainBanner/>
+      <Categories/>
+      <BestSeller/>
+      <BottomBanner/>
+      <NewsLetter/>
+      
+    </div>
+  )
+}
+
+export default Home
